@@ -8,4 +8,8 @@ import { Component, input, signal } from '@angular/core';
 })
 export class Greetings {
 message = input()
+
+myKeyupHandler(event : KeyboardEvent){
+  console.log(`user passed the ${event.key} key`);
+}
 }

@@ -1,0 +1,52 @@
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 100vh;
+    padding: 2rem;
+    background: #f5f6fa; /* soft neutral background */
+    gap: 1rem;
+    box-sizing: border-box;
+}
+
+/* Card container */
+.container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    width: 100%;
+    max-width: 500px;
+    background: #ffffff;
+    padding: 1rem 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Card hover effect */
+.container:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+}
+
+/* Text inside */
+.container p {
+    margin: 0;
+    font-size: 1rem;
+    color: #333;
+    flex: 1;
+}
+
+/* Checkbox styling */
+.container input[type="checkbox"] {
+    transform: scale(1.3);
+    cursor: pointer;
+}
+
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

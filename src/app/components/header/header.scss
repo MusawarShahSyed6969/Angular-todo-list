@@ -1,17 +1,31 @@
 html,body{
     padding: 0;
     margin: 0;
+
 }
 
 header{
     display: flex;
-    justify-content: start;
-    // align-items: s;
+    justify-content: space-between;
     background-color: brown;
     padding: 16px;
+}
+
+li{
+    color: white;
+    &:hover{
+        color: gray;
+        cursor: pointer;
+    }
 }
 
 nav{
     font: 300;
     color: white;
+
+    &:hover{
+        color: gray;
+        cursor: pointer;
+    }
 }
+

@@ -1,0 +1,18 @@
+.main{
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.smallcontainer{
+    display: flex;
+   gap: 1rem;
+}
+
+p{
+    font-size: xx-large;
+   
+}
