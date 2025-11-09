@@ -1,0 +1,17 @@
+html,body{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    display: flex;
+    justify-content: start;
+    // align-items: s;
+    background-color: brown;
+    padding: 16px;
+}
+
+nav{
+    font: 300;
+    color: white;
+}
