@@ -1,4 +1,4 @@
-<div class="container">
-    <input type="checkbox" [checked]="todo().completed" />
+<div appHighlightCompleteTodo [isCompleted]="todo().completed" class="container">
+    <input type="checkbox" (change)="this.toggleClicked()" [checked]="todo().completed" />
     <p>{{ todo().title }}</p>
   </div>
